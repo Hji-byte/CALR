@@ -1,0 +1,11 @@
+{
+  "export": "a13ad2c8ddb5242388417e356090c5bf8824445cd92eb2a8125f28c83c87925c",
+  "dataset": "290ee43686afa5eff6c396c0e61d9e14167f5729cff62da6e30fc4888962f446",
+  "prompt": "57c82b32804a17ad18bbd4d3bab9fe2cdf60050c33d9708d047e147423fa16fe",
+  "batch_size": 16,
+  "max_new_tokens": 8192,
+  "temperature": 0,
+  "thinking": false,
+  "vllm": "0.27.1",
+  "max_model_len": 10240
+}

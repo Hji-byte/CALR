@@ -1,0 +1,35 @@
+[project]
+name = "calr"
+version = "0.1.0"
+description = "Correctness-aware length rewards for efficient reasoning"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "sympy==1.14.0",
+  "antlr4-python3-runtime==4.11.1",
+  "latex2sympy2==1.9.0",
+  "word2number==1.1",
+  "regex",
+  "pyyaml==6.0.3",
+]
+
+[project.optional-dependencies]
+gpu = [
+  "torch==2.13.0; sys_platform == 'linux'",
+  "trl==1.12.0; sys_platform == 'linux'",
+  "transformers==5.15.0; sys_platform == 'linux'",
+  "peft==0.20.0; sys_platform == 'linux'",
+  "vllm==0.27.1; sys_platform == 'linux'",
+  "accelerate==1.14.0; sys_platform == 'linux'",
+  "datasets==5.0.1; sys_platform == 'linux'",
+  "safetensors==0.8.0; sys_platform == 'linux'",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.uv]
+package = false
+environments = ["sys_platform == 'linux' and platform_machine == 'x86_64'", "sys_platform == 'win32' and platform_machine == 'AMD64'"]
+
+[tool.uv.sources]
+latex2sympy2 = { git = "https://github.com/QwenLM/Qwen2.5-Math.git", rev = "a45202bd16f1ec06f433442dc1152d0074773465", subdirectory = "evaluation/latex2sympy" }

@@ -1,0 +1,3056 @@
+{
+  "policy": "strict_cot_v4",
+  "input": "/root/autodl-fs/reward_diagnostics_2b_mb4_128_v1/correctness_evaluation100/math500_correctness_clean100_max4096_batch16.jsonl",
+  "input_sha256": "e4fbe671ee83302c3e4d10309584a44e13e47d49f39f06d6fd562178a481c563",
+  "total": 500,
+  "correct": 338,
+  "accuracy": 0.676,
+  "legacy_correct": 0,
+  "missing_final_answers": 107,
+  "average_output_tokens": 1628.612,
+  "changes": [
+    {
+      "id": 0,
+      "gold": "\\left( 3, \\frac{\\pi}{2} \\right)",
+      "old_answer": "(3, \\frac{\\pi}{2})",
+      "new_answer": "(3,\\frac{\\pi}{2})",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 1,
+      "gold": "p - q",
+      "old_answer": "p - q",
+      "new_answer": "p-q",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 2,
+      "gold": "\\frac{14}{3}",
+      "old_answer": "\\frac{14}{3}",
+      "new_answer": "\\frac{14}{3}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 3,
+      "gold": "9",
+      "old_answer": "9",
+      "new_answer": "9",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 4,
+      "gold": "\\text{Evelyn}",
+      "old_answer": "Evelyn",
+      "new_answer": "Evelyn",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 5,
+      "gold": "42",
+      "old_answer": "42",
+      "new_answer": "42",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 6,
+      "gold": "27",
+      "old_answer": "27",
+      "new_answer": "27",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 8,
+      "gold": "3\\sqrt{13}",
+      "old_answer": "3\\sqrt{13}",
+      "new_answer": "3\\sqrt{13}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 10,
+      "gold": "2220",
+      "old_answer": "2220",
+      "new_answer": "2220",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 13,
+      "gold": "5",
+      "old_answer": "5",
+      "new_answer": "5",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 15,
+      "gold": "6 - 5i",
+      "old_answer": "6 - 5i",
+      "new_answer": "6-5i",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 16,
+      "gold": "-50",
+      "old_answer": "-50",
+      "new_answer": "-50",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 19,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 20,
+      "gold": "6+9i",
+      "old_answer": "6+9i",
+      "new_answer": "6+9i",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 23,
+      "gold": "x=5",
+      "old_answer": "5",
+      "new_answer": "5",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 24,
+      "gold": "10",
+      "old_answer": "10",
+      "new_answer": "10",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 25,
+      "gold": "1,-2",
+      "old_answer": "-2, 1",
+      "new_answer": "{-2,1}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 27,
+      "gold": "78",
+      "old_answer": "78",
+      "new_answer": "78",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 28,
+      "gold": "-2 + 7i",
+      "old_answer": "-2 + 7i",
+      "new_answer": "-2+7i",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 29,
+      "gold": "225",
+      "old_answer": "225",
+      "new_answer": "225",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 30,
+      "gold": "52_8",
+      "old_answer": "52_8",
+      "new_answer": "52_8",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 31,
+      "gold": "11\\sqrt2",
+      "old_answer": "11\\sqrt{2}",
+      "new_answer": "11\\sqrt{2}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 32,
+      "gold": "720",
+      "old_answer": "720",
+      "new_answer": "720",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 33,
+      "gold": "\\frac{243}{625}",
+      "old_answer": "\\frac{243}{625}",
+      "new_answer": "\\frac{243}{625}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 34,
+      "gold": "-125",
+      "old_answer": "-125",
+      "new_answer": "-125",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 35,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 36,
+      "gold": "3, 5, 7",
+      "old_answer": "3, 5, 7",
+      "new_answer": "3,5,7",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 37,
+      "gold": "72",
+      "old_answer": "72",
+      "new_answer": "72",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 38,
+      "gold": "2000",
+      "old_answer": "2000",
+      "new_answer": "2000",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 39,
+      "gold": "23",
+      "old_answer": "23",
+      "new_answer": "23",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 40,
+      "gold": "12",
+      "old_answer": "12",
+      "new_answer": "12",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 41,
+      "gold": "17",
+      "old_answer": "17",
+      "new_answer": "17",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 42,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 44,
+      "gold": "1.25",
+      "old_answer": "1.25",
+      "new_answer": "1.25",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 45,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 46,
+      "gold": "6",
+      "old_answer": "6",
+      "new_answer": "6",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 48,
+      "gold": "\\frac{3}{2}",
+      "old_answer": "3/2",
+      "new_answer": "3/2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 49,
+      "gold": "83",
+      "old_answer": "83",
+      "new_answer": "83",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 50,
+      "gold": "203",
+      "old_answer": "203",
+      "new_answer": "203",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 51,
+      "gold": "x^5 - x^4 + x^3 - x^2 + x - 1",
+      "old_answer": "x^5 - x^4 + x^3 - x^2 + x - 1",
+      "new_answer": "x^5-x^4+x^3-x^2+x-1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 52,
+      "gold": "12",
+      "old_answer": "12",
+      "new_answer": "12",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 53,
+      "gold": "-\\frac{\\pi}{6}",
+      "old_answer": "-\\frac{\\pi}{6}",
+      "new_answer": "-\\frac{\\pi}{6}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 54,
+      "gold": "0.15",
+      "old_answer": "0.15",
+      "new_answer": "0.15",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 55,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 56,
+      "gold": "11",
+      "old_answer": "11",
+      "new_answer": "11",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 57,
+      "gold": "16",
+      "old_answer": "16",
+      "new_answer": "16",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 58,
+      "gold": "9901",
+      "old_answer": "9901",
+      "new_answer": "9901",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 59,
+      "gold": "5",
+      "old_answer": "5",
+      "new_answer": "5",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 61,
+      "gold": "-256",
+      "old_answer": "-256",
+      "new_answer": "-256",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 62,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 63,
+      "gold": "10",
+      "old_answer": "10",
+      "new_answer": "10",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 65,
+      "gold": "1",
+      "old_answer": "1",
+      "new_answer": "1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 66,
+      "gold": "x^3+3x-6",
+      "old_answer": "x^3 + 3x - 6",
+      "new_answer": "x^3+3x-6",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 67,
+      "gold": "10",
+      "old_answer": "10",
+      "new_answer": "10",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 68,
+      "gold": "46",
+      "old_answer": "46^\\circ",
+      "new_answer": "46",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 69,
+      "gold": "-1",
+      "old_answer": "-1",
+      "new_answer": "-1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 70,
+      "gold": "40_9",
+      "old_answer": "40_9",
+      "new_answer": "40_9",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 72,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 73,
+      "gold": "\\frac{3\\sqrt{3}}{4}",
+      "old_answer": "\\frac{3\\sqrt{3}}{4}",
+      "new_answer": "\\frac{3\\sqrt{3}}{4}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 75,
+      "gold": "\\frac{11}{36}",
+      "old_answer": "11/36",
+      "new_answer": "11/36",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 76,
+      "gold": "0",
+      "old_answer": "0",
+      "new_answer": "0",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 77,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 78,
+      "gold": "(-2,1)",
+      "old_answer": "(-2, 1)",
+      "new_answer": "(-2,1)",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 79,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 81,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 82,
+      "gold": "\\frac{3}{2}",
+      "old_answer": "3/2",
+      "new_answer": "3/2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 83,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 84,
+      "gold": "-1",
+      "old_answer": "-1",
+      "new_answer": "-1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 85,
+      "gold": "\\sqrt{5}",
+      "old_answer": "\\sqrt{5}",
+      "new_answer": "\\sqrt{5}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 86,
+      "gold": "240",
+      "old_answer": "240",
+      "new_answer": "240",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 87,
+      "gold": "1",
+      "old_answer": "1",
+      "new_answer": "1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 91,
+      "gold": "1",
+      "old_answer": "1",
+      "new_answer": "1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 93,
+      "gold": "33",
+      "old_answer": "33",
+      "new_answer": "33",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 95,
+      "gold": "-4",
+      "old_answer": "-4",
+      "new_answer": "-4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 97,
+      "gold": "\\text{east}",
+      "old_answer": "East",
+      "new_answer": "East",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 98,
+      "gold": "2k+2",
+      "old_answer": "2k + 2",
+      "new_answer": "2k+2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 102,
+      "gold": "(a+5)(b+2)",
+      "old_answer": "(a + 5)(b + 2)",
+      "new_answer": "(a+5)(b+2)",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 105,
+      "gold": "29",
+      "old_answer": "29",
+      "new_answer": "29",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 106,
+      "gold": "\\frac43",
+      "old_answer": "\\frac{4}{3}",
+      "new_answer": "\\frac{4}{3}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 107,
+      "gold": "9",
+      "old_answer": "9",
+      "new_answer": "9",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 109,
+      "gold": "120^\\circ",
+      "old_answer": "120^\\circ",
+      "new_answer": "120",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 111,
+      "gold": "210",
+      "old_answer": "210",
+      "new_answer": "210",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 112,
+      "gold": "13",
+      "old_answer": "13",
+      "new_answer": "13",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 113,
+      "gold": "8000",
+      "old_answer": "8000",
+      "new_answer": "8000",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 114,
+      "gold": "-5",
+      "old_answer": "-5",
+      "new_answer": "-5",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 116,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 117,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 120,
+      "gold": "\\text{even}",
+      "old_answer": "even",
+      "new_answer": "even",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 121,
+      "gold": "6",
+      "old_answer": "6",
+      "new_answer": "6",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 122,
+      "gold": "9",
+      "old_answer": "9",
+      "new_answer": "9",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 123,
+      "gold": "8",
+      "old_answer": "8",
+      "new_answer": "8",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 124,
+      "gold": "\\frac{11}{2}",
+      "old_answer": "11/2",
+      "new_answer": "11/2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 125,
+      "gold": "-3",
+      "old_answer": "-3",
+      "new_answer": "-3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 127,
+      "gold": "4210_{5}",
+      "old_answer": "4210_5",
+      "new_answer": "4210_5",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 129,
+      "gold": "\\frac{3840}{289}",
+      "old_answer": "\\frac{3840}{289}",
+      "new_answer": "\\frac{3840}{289}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 130,
+      "gold": "13",
+      "old_answer": "13",
+      "new_answer": "13",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 131,
+      "gold": "8",
+      "old_answer": "8",
+      "new_answer": "8",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 132,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 133,
+      "gold": "120",
+      "old_answer": "120",
+      "new_answer": "120",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 135,
+      "gold": "9",
+      "old_answer": "9",
+      "new_answer": "9",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 137,
+      "gold": "204_5",
+      "old_answer": "204_5",
+      "new_answer": "204_5",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 139,
+      "gold": "1",
+      "old_answer": "1",
+      "new_answer": "1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 140,
+      "gold": "13",
+      "old_answer": "13",
+      "new_answer": "13",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 141,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 142,
+      "gold": "28800",
+      "old_answer": "28800",
+      "new_answer": "28800",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 143,
+      "gold": "3 \\sqrt{5}",
+      "old_answer": "3\\sqrt{5}",
+      "new_answer": "3\\sqrt{5}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 144,
+      "gold": "(15,-29)",
+      "old_answer": "(15, -29)",
+      "new_answer": "(15,-29)",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 146,
+      "gold": "\\frac{\\sqrt{3}}{3}",
+      "old_answer": "\\frac{\\sqrt{3}}{3}",
+      "new_answer": "\\frac{\\sqrt{3}}{3}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 147,
+      "gold": "16",
+      "old_answer": "16",
+      "new_answer": "16",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 148,
+      "gold": "11",
+      "old_answer": "11",
+      "new_answer": "11",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 149,
+      "gold": "49",
+      "old_answer": "49",
+      "new_answer": "49",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 150,
+      "gold": "1",
+      "old_answer": "1",
+      "new_answer": "1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 153,
+      "gold": "\\frac{2}{21}",
+      "old_answer": "2/21",
+      "new_answer": "2/21",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 155,
+      "gold": "\\frac{1}{4}",
+      "old_answer": "1/4",
+      "new_answer": "1/4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 156,
+      "gold": "30^\\circ",
+      "old_answer": "30",
+      "new_answer": "30",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 157,
+      "gold": "\\frac65",
+      "old_answer": "1.2",
+      "new_answer": "1.2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 158,
+      "gold": "2107",
+      "old_answer": "2107",
+      "new_answer": "2107",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 159,
+      "gold": "3.21",
+      "old_answer": "3.21",
+      "new_answer": "3.21",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 160,
+      "gold": "18",
+      "old_answer": "18",
+      "new_answer": "18",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 161,
+      "gold": "6",
+      "old_answer": "6",
+      "new_answer": "6",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 162,
+      "gold": "\\dfrac{17}{50}",
+      "old_answer": "17/50",
+      "new_answer": "17/50",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 163,
+      "gold": "-\\frac{35}{9}",
+      "old_answer": "-\\frac{35}{9}",
+      "new_answer": "-\\frac{35}{9}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 165,
+      "gold": "\\frac{4}{9}",
+      "old_answer": "4/9",
+      "new_answer": "4/9",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 167,
+      "gold": "65",
+      "old_answer": "65",
+      "new_answer": "65",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 169,
+      "gold": "12",
+      "old_answer": "12",
+      "new_answer": "12",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 171,
+      "gold": "\\frac{13}{15}",
+      "old_answer": "\\frac{13}{15}",
+      "new_answer": "\\frac{13}{15}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 172,
+      "gold": "350",
+      "old_answer": "350",
+      "new_answer": "350",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 174,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 176,
+      "gold": ".0000672",
+      "old_answer": "0.0000672",
+      "new_answer": "0.0000672",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 178,
+      "gold": "60",
+      "old_answer": "60",
+      "new_answer": "60",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 179,
+      "gold": "5x - 7y + 11z + 4 = 0",
+      "old_answer": "5x - 7y + 11z + 4 = 0",
+      "new_answer": "5x-7y+11z+4=0",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 181,
+      "gold": "\\frac{\\sqrt{3}}{3}",
+      "old_answer": "\\frac{\\sqrt{3}}{3}",
+      "new_answer": "\\frac{\\sqrt{3}}{3}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 182,
+      "gold": "1251",
+      "old_answer": "1251",
+      "new_answer": "1251",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 183,
+      "gold": "23",
+      "old_answer": "23",
+      "new_answer": "23",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 185,
+      "gold": "1",
+      "old_answer": "1",
+      "new_answer": "1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 186,
+      "gold": "7",
+      "old_answer": "7",
+      "new_answer": "7",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 187,
+      "gold": "7",
+      "old_answer": "7",
+      "new_answer": "7",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 188,
+      "gold": "6",
+      "old_answer": "6",
+      "new_answer": "6",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 190,
+      "gold": "\\frac{13}{18}",
+      "old_answer": "13/18",
+      "new_answer": "13/18",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 191,
+      "gold": "0",
+      "old_answer": "0",
+      "new_answer": "0",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 192,
+      "gold": "30",
+      "old_answer": "30",
+      "new_answer": "30",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 193,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 196,
+      "gold": "1600",
+      "old_answer": "1600",
+      "new_answer": "1600",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 199,
+      "gold": "17",
+      "old_answer": "17",
+      "new_answer": "17",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 200,
+      "gold": "40",
+      "old_answer": "40",
+      "new_answer": "40",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 201,
+      "gold": "66",
+      "old_answer": "66",
+      "new_answer": "66",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 202,
+      "gold": "\\frac{2}{3}",
+      "old_answer": "2/3",
+      "new_answer": "2/3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 203,
+      "gold": "12",
+      "old_answer": "12",
+      "new_answer": "12",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 206,
+      "gold": "\\left( \\frac{3}{2}, -13 \\right)",
+      "old_answer": "(3/2, -13)",
+      "new_answer": "(3/2,-13)",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 207,
+      "gold": "28",
+      "old_answer": "28",
+      "new_answer": "28",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 208,
+      "gold": "1",
+      "old_answer": "1",
+      "new_answer": "1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 209,
+      "gold": "16",
+      "old_answer": "16",
+      "new_answer": "16",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 210,
+      "gold": "10",
+      "old_answer": "10",
+      "new_answer": "10",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 211,
+      "gold": "5",
+      "old_answer": "5",
+      "new_answer": "5",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 212,
+      "gold": "56",
+      "old_answer": "56",
+      "new_answer": "56",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 215,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 218,
+      "gold": "(-1,6)",
+      "old_answer": "(-1, 6)",
+      "new_answer": "(-1,6)",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 221,
+      "gold": "900",
+      "old_answer": "900",
+      "new_answer": "900",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 225,
+      "gold": "11",
+      "old_answer": "11",
+      "new_answer": "11",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 226,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 229,
+      "gold": "90",
+      "old_answer": "90",
+      "new_answer": "90",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 230,
+      "gold": "\\frac{16}{5}",
+      "old_answer": "3.2",
+      "new_answer": "3.2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 231,
+      "gold": "10",
+      "old_answer": "10",
+      "new_answer": "10",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 233,
+      "gold": "30^\\circ",
+      "old_answer": "30",
+      "new_answer": "30",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 234,
+      "gold": "34",
+      "old_answer": "34",
+      "new_answer": "34",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 235,
+      "gold": "\\frac 59",
+      "old_answer": "\\frac{5}{9}",
+      "new_answer": "\\frac{5}{9}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 237,
+      "gold": "22",
+      "old_answer": "22",
+      "new_answer": "22",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 238,
+      "gold": "-4",
+      "old_answer": "-4",
+      "new_answer": "-4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 241,
+      "gold": "17",
+      "old_answer": "17",
+      "new_answer": "17",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 243,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 244,
+      "gold": "8",
+      "old_answer": "8",
+      "new_answer": "8",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 245,
+      "gold": "-13x+3",
+      "old_answer": "-13x + 3",
+      "new_answer": "-13x+3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 247,
+      "gold": "\\frac{10}{11}",
+      "old_answer": "\\frac{10}{11}",
+      "new_answer": "\\frac{10}{11}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 249,
+      "gold": "17",
+      "old_answer": "17",
+      "new_answer": "17",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 250,
+      "gold": "13",
+      "old_answer": "13",
+      "new_answer": "13",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 252,
+      "gold": "81",
+      "old_answer": "81",
+      "new_answer": "81",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 253,
+      "gold": "\\frac{1}{8}",
+      "old_answer": "1/8",
+      "new_answer": "1/8",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 254,
+      "gold": "28",
+      "old_answer": "28",
+      "new_answer": "28",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 255,
+      "gold": "\\text{(E)}",
+      "old_answer": "(E)",
+      "new_answer": "(E)",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 256,
+      "gold": "\\frac{8}{21}",
+      "old_answer": "\\frac{8}{21}",
+      "new_answer": "\\frac{8}{21}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 258,
+      "gold": "16",
+      "old_answer": "16",
+      "new_answer": "16",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 259,
+      "gold": "22",
+      "old_answer": "22",
+      "new_answer": "22",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 260,
+      "gold": "120^\\circ",
+      "old_answer": "120",
+      "new_answer": "120",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 261,
+      "gold": "76^\\circ",
+      "old_answer": "76",
+      "new_answer": "76",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 262,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 263,
+      "gold": "15",
+      "old_answer": "15",
+      "new_answer": "15",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 265,
+      "gold": "4005",
+      "old_answer": "4005",
+      "new_answer": "4005",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 266,
+      "gold": "\\dfrac{33}{100}",
+      "old_answer": "33/100",
+      "new_answer": "33/100",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 268,
+      "gold": "1",
+      "old_answer": "1",
+      "new_answer": "1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 269,
+      "gold": "6",
+      "old_answer": "6",
+      "new_answer": "6",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 271,
+      "gold": "333",
+      "old_answer": "333",
+      "new_answer": "333",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 272,
+      "gold": "1030",
+      "old_answer": "1030",
+      "new_answer": "1030",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 273,
+      "gold": "1250",
+      "old_answer": "1250",
+      "new_answer": "1250",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 275,
+      "gold": "7",
+      "old_answer": "7",
+      "new_answer": "7",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 276,
+      "gold": "11",
+      "old_answer": "11",
+      "new_answer": "11",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 277,
+      "gold": "\\sqrt{53}",
+      "old_answer": "\\sqrt{53}",
+      "new_answer": "\\sqrt{53}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 278,
+      "gold": "255",
+      "old_answer": "255",
+      "new_answer": "255",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 280,
+      "gold": "8",
+      "old_answer": "8",
+      "new_answer": "8",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 282,
+      "gold": "129",
+      "old_answer": "129",
+      "new_answer": "129",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 283,
+      "gold": "1",
+      "old_answer": "1",
+      "new_answer": "1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 287,
+      "gold": "36",
+      "old_answer": "36",
+      "new_answer": "36",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 289,
+      "gold": "16",
+      "old_answer": "16",
+      "new_answer": "16",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 290,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 291,
+      "gold": "63",
+      "old_answer": "63",
+      "new_answer": "63",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 293,
+      "gold": "\\left(\\frac{3}{5},\\frac{8}{3}\\right]",
+      "old_answer": "\\left( \\frac{3}{5}, \\frac{8}{3} \\right]",
+      "new_answer": "(\\frac{3}{5},\\frac{8}{3}]",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 294,
+      "gold": "58",
+      "old_answer": "58",
+      "new_answer": "58",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 297,
+      "gold": "103",
+      "old_answer": "103",
+      "new_answer": "103",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 299,
+      "gold": "63",
+      "old_answer": "63",
+      "new_answer": "63",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 300,
+      "gold": "12",
+      "old_answer": "12",
+      "new_answer": "12",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 304,
+      "gold": "9",
+      "old_answer": "9",
+      "new_answer": "9",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 305,
+      "gold": "\\frac9{19}",
+      "old_answer": "\\frac{9}{19}",
+      "new_answer": "\\frac{9}{19}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 307,
+      "gold": "(-\\infty, 0]",
+      "old_answer": "(-\\infty, 0]",
+      "new_answer": "(-\\infty,0]",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 310,
+      "gold": "49",
+      "old_answer": "49",
+      "new_answer": "49",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 311,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 312,
+      "gold": "(5,\\infty)",
+      "old_answer": "(5, \\infty)",
+      "new_answer": "(5,\\infty)",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 313,
+      "gold": "12\\pi",
+      "old_answer": "12\\pi",
+      "new_answer": "12\\pi",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 314,
+      "gold": "(2,4)",
+      "old_answer": "(2, 4)",
+      "new_answer": "(2,4)",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 315,
+      "gold": "41",
+      "old_answer": "41",
+      "new_answer": "41",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 316,
+      "gold": "12",
+      "old_answer": "12",
+      "new_answer": "12",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 318,
+      "gold": "\\frac{11+9a}{20}",
+      "old_answer": "\\frac{9a+11}{20}",
+      "new_answer": "\\frac{9a+11}{20}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 319,
+      "gold": "-128",
+      "old_answer": "-128",
+      "new_answer": "-128",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 320,
+      "gold": "-\\frac{24}{25}",
+      "old_answer": "-24/25",
+      "new_answer": "-24/25",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 321,
+      "gold": "10",
+      "old_answer": "10",
+      "new_answer": "10",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 322,
+      "gold": "-1",
+      "old_answer": "-1",
+      "new_answer": "-1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 324,
+      "gold": "120",
+      "old_answer": "120",
+      "new_answer": "120",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 325,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 328,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 329,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 331,
+      "gold": "\\frac{13}{6}",
+      "old_answer": "13/6",
+      "new_answer": "13/6",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 332,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 334,
+      "gold": "-120",
+      "old_answer": "-120",
+      "new_answer": "-120",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 335,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 336,
+      "gold": "26000",
+      "old_answer": "26000",
+      "new_answer": "26000",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 337,
+      "gold": "6",
+      "old_answer": "6",
+      "new_answer": "6",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 338,
+      "gold": "4343_6",
+      "old_answer": "4343_6",
+      "new_answer": "4343_6",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 339,
+      "gold": "2k",
+      "old_answer": "2k",
+      "new_answer": "2k",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 342,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 343,
+      "gold": "58,500",
+      "old_answer": "58500",
+      "new_answer": "58500",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 344,
+      "gold": "5",
+      "old_answer": "5",
+      "new_answer": "5",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 345,
+      "gold": "1",
+      "old_answer": "1",
+      "new_answer": "1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 346,
+      "gold": "66",
+      "old_answer": "66",
+      "new_answer": "66",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 347,
+      "gold": "6r^2-4r-24",
+      "old_answer": "6r^2 - 4r - 24",
+      "new_answer": "6r^2-4r-24",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 348,
+      "gold": "4495",
+      "old_answer": "4495",
+      "new_answer": "4495",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 350,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 351,
+      "gold": "\\frac{1}{16}",
+      "old_answer": "\\frac{1}{16}",
+      "new_answer": "\\frac{1}{16}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 354,
+      "gold": "81",
+      "old_answer": "81",
+      "new_answer": "81",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 356,
+      "gold": "(-\\sqrt{3}, \\sqrt{3})",
+      "old_answer": "(-\\sqrt{3}, \\sqrt{3})",
+      "new_answer": "(-\\sqrt{3},\\sqrt{3})",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 357,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 361,
+      "gold": "16 \\sqrt{3}",
+      "old_answer": "16\\sqrt{3}",
+      "new_answer": "16\\sqrt{3}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 362,
+      "gold": "\\frac14",
+      "old_answer": "1/4",
+      "new_answer": "1/4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 363,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 364,
+      "gold": "(1,-16,-4,43)",
+      "old_answer": "(1, -16, -4, 43)",
+      "new_answer": "(1,-16,-4,43)",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 366,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 367,
+      "gold": "1",
+      "old_answer": "1",
+      "new_answer": "1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 368,
+      "gold": "31",
+      "old_answer": "31",
+      "new_answer": "31",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 369,
+      "gold": "21",
+      "old_answer": "21",
+      "new_answer": "21",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 370,
+      "gold": "-41",
+      "old_answer": "-41",
+      "new_answer": "-41",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 372,
+      "gold": "90^\\circ",
+      "old_answer": "90^\\circ",
+      "new_answer": "90",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 373,
+      "gold": "1+2i",
+      "old_answer": "1+2i",
+      "new_answer": "1+2i",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 374,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 375,
+      "gold": "25",
+      "old_answer": "25",
+      "new_answer": "25",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 376,
+      "gold": "(8,-2)",
+      "old_answer": "(8, -2)",
+      "new_answer": "(8,-2)",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 377,
+      "gold": "6",
+      "old_answer": "6",
+      "new_answer": "6",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 378,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 379,
+      "gold": "12",
+      "old_answer": "12th grade",
+      "new_answer": "12",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 380,
+      "gold": "(0,9) \\cup (9,36)",
+      "old_answer": "(0, 9) \\cup (9, 36)",
+      "new_answer": "(0,9)\\cup(9,36)",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 384,
+      "gold": "15x - 80",
+      "old_answer": "15x - 80",
+      "new_answer": "15x-80",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 385,
+      "gold": "22",
+      "old_answer": "22",
+      "new_answer": "22",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 386,
+      "gold": "11",
+      "old_answer": "11",
+      "new_answer": "11",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 387,
+      "gold": "18",
+      "old_answer": "18",
+      "new_answer": "18",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 388,
+      "gold": "\\frac{11}{2}",
+      "old_answer": "5.5",
+      "new_answer": "5.5",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 389,
+      "gold": "\\frac{\\sqrt{21}}{5}",
+      "old_answer": "\\frac{\\sqrt{21}}{5}",
+      "new_answer": "\\frac{\\sqrt{21}}{5}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 390,
+      "gold": "12",
+      "old_answer": "12",
+      "new_answer": "12",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 393,
+      "gold": "\\frac 34",
+      "old_answer": "3/4",
+      "new_answer": "3/4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 395,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 397,
+      "gold": "23",
+      "old_answer": "23",
+      "new_answer": "23",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 398,
+      "gold": "\\text{Navin}",
+      "old_answer": "Navin",
+      "new_answer": "Navin",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 399,
+      "gold": "326.5",
+      "old_answer": "326.5",
+      "new_answer": "326.5",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 402,
+      "gold": "1 - 12i",
+      "old_answer": "1 - 12i",
+      "new_answer": "1-12i",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 403,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 404,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 406,
+      "gold": "0",
+      "old_answer": "0",
+      "new_answer": "0",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 409,
+      "gold": "2 \\sqrt{5}",
+      "old_answer": "2\\sqrt{5}",
+      "new_answer": "2\\sqrt{5}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 410,
+      "gold": "6",
+      "old_answer": "6",
+      "new_answer": "6",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 411,
+      "gold": "60",
+      "old_answer": "60",
+      "new_answer": "60",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 413,
+      "gold": "5r^5",
+      "old_answer": "5r^5",
+      "new_answer": "5r^5",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 414,
+      "gold": "10",
+      "old_answer": "10",
+      "new_answer": "10",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 415,
+      "gold": "9",
+      "old_answer": "9",
+      "new_answer": "9",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 417,
+      "gold": "-2",
+      "old_answer": "-2",
+      "new_answer": "-2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 418,
+      "gold": "2\\sqrt{5}",
+      "old_answer": "2\\sqrt{5}",
+      "new_answer": "2\\sqrt{5}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 424,
+      "gold": "600",
+      "old_answer": "600",
+      "new_answer": "600",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 426,
+      "gold": "6\\sqrt{2}",
+      "old_answer": "6\\sqrt{2}",
+      "new_answer": "6\\sqrt{2}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 427,
+      "gold": "29",
+      "old_answer": "29",
+      "new_answer": "29",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 428,
+      "gold": "64",
+      "old_answer": "64",
+      "new_answer": "64",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 429,
+      "gold": "50",
+      "old_answer": "50",
+      "new_answer": "50",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 430,
+      "gold": "4.5",
+      "old_answer": "4.5",
+      "new_answer": "4.5",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 431,
+      "gold": "\\left[ \\frac{\\pi^2}{8}, \\frac{5 \\pi^2}{4} \\right]",
+      "old_answer": "\\left[ \\frac{\\pi^2}{8}, \\frac{5\\pi^2}{4} \\right]",
+      "new_answer": "[\\frac{\\pi^2}{8},\\frac{5\\pi^2}{4}]",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 433,
+      "gold": ".35625",
+      "old_answer": "0.35625",
+      "new_answer": "0.35625",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 434,
+      "gold": "32",
+      "old_answer": "32",
+      "new_answer": "32",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 435,
+      "gold": "(-\\infty, 2) \\cup (3, \\infty)",
+      "old_answer": "(-\\infty, 2) \\cup (3, \\infty)",
+      "new_answer": "(-\\infty,2)\\cup(3,\\infty)",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 437,
+      "gold": "3",
+      "old_answer": "3",
+      "new_answer": "3",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 438,
+      "gold": "4",
+      "old_answer": "4",
+      "new_answer": "4",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 440,
+      "gold": "14",
+      "old_answer": "14",
+      "new_answer": "14",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 441,
+      "gold": "550",
+      "old_answer": "550",
+      "new_answer": "550",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 442,
+      "gold": "256",
+      "old_answer": "256",
+      "new_answer": "256",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 443,
+      "gold": "45",
+      "old_answer": "45",
+      "new_answer": "45",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 446,
+      "gold": "8",
+      "old_answer": "8",
+      "new_answer": "8",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 447,
+      "gold": "9",
+      "old_answer": "9",
+      "new_answer": "9",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 448,
+      "gold": "44",
+      "old_answer": "44",
+      "new_answer": "44",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 449,
+      "gold": "47",
+      "old_answer": "47",
+      "new_answer": "47",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 450,
+      "gold": "64",
+      "old_answer": "64",
+      "new_answer": "64",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 451,
+      "gold": "\\frac{639}{40}",
+      "old_answer": "\\frac{639}{40}",
+      "new_answer": "\\frac{639}{40}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 452,
+      "gold": "143",
+      "old_answer": "143",
+      "new_answer": "143",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 453,
+      "gold": "10",
+      "old_answer": "10",
+      "new_answer": "10",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 455,
+      "gold": "6",
+      "old_answer": "6",
+      "new_answer": "6",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 456,
+      "gold": "-2,1",
+      "old_answer": "-2, 1",
+      "new_answer": "{-2,1}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 457,
+      "gold": "0",
+      "old_answer": "0",
+      "new_answer": "0",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 458,
+      "gold": "41",
+      "old_answer": "41",
+      "new_answer": "41",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 463,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 464,
+      "gold": "9",
+      "old_answer": "9",
+      "new_answer": "9",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 465,
+      "gold": "121",
+      "old_answer": "121",
+      "new_answer": "121",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 468,
+      "gold": "8",
+      "old_answer": "8",
+      "new_answer": "8",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 469,
+      "gold": "25",
+      "old_answer": "25",
+      "new_answer": "25",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 471,
+      "gold": "84",
+      "old_answer": "84",
+      "new_answer": "84",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 472,
+      "gold": "137 \\frac{1}{2}",
+      "old_answer": "137\\frac{1}{2}",
+      "new_answer": "137\\frac{1}{2}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 477,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 479,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 480,
+      "gold": "1",
+      "old_answer": "1",
+      "new_answer": "{1}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 482,
+      "gold": "202",
+      "old_answer": "202",
+      "new_answer": "202",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 484,
+      "gold": "10",
+      "old_answer": "10",
+      "new_answer": "10",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 485,
+      "gold": "13",
+      "old_answer": "13",
+      "new_answer": "13",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 486,
+      "gold": "216",
+      "old_answer": "216",
+      "new_answer": "216",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 487,
+      "gold": "2",
+      "old_answer": "2",
+      "new_answer": "2",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 489,
+      "gold": "15",
+      "old_answer": "15",
+      "new_answer": "15",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 492,
+      "gold": "y = -2x",
+      "old_answer": "y = -2x",
+      "new_answer": "y=-2x",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 493,
+      "gold": "20",
+      "old_answer": "20",
+      "new_answer": "20",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 496,
+      "gold": "\\frac{5}{13}",
+      "old_answer": "\\dfrac{5}{13}",
+      "new_answer": "\\frac{5}{13}",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    },
+    {
+      "id": 498,
+      "gold": "-1",
+      "old_answer": "-1",
+      "new_answer": "-1",
+      "source": "answer_tag",
+      "old_score": null,
+      "new_score": true
+    }
+  ],
+  "note": "Answer-only score; not proof verification. Same existing generations, stricter extraction and comparison."
+}

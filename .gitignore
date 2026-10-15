@@ -1,0 +1,29 @@
+# Public source, datasets and experiment results; private diagnostics stay local.
+/*
+!/.gitignore
+!/README.md
+!/README.zh-CN.md
+!/main.py
+!/pyproject.toml
+!/uv.lock
+!/training/
+!/evaluation/
+!/analysis/
+!/data/
+!/results/
+# Local-only tests and historical materials.
+/tests/
+/_private/
+/pytest.ini
+/results/*/training/*
+!/results/*/training/run_manifest.json
+!/results/*/training/training_metrics.jsonl
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+**/.env
+**/*.key
+**/*.pem
+**/*.safetensors
+**/*.pt
+**/checkpoint-*/

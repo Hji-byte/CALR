@@ -1,0 +1,23 @@
+{
+  "model": "/root/autodl-tmp/models/Qwen3.5-2B",
+  "adapter": "/root/autodl-fs/reward_diagnostics_2b_mb4_128_v1/correctness/final",
+  "temperature": 0,
+  "thinking": false,
+  "max_new_tokens": 8192,
+  "max_model_len": 10240,
+  "policy": "strict_aime_v1",
+  "years": {
+    "2024": {
+      "total": 30,
+      "correct": 5,
+      "accuracy": 0.16666666666666666,
+      "average_output_tokens": 7352.666666666667,
+      "truncated": 24,
+      "invalid_final_answers": 24
+    }
+  },
+  "note": "AIME2024 only: 30 existing greedy responses selected by dataset ID from the original 2024/2025 evaluation. No regeneration or score changes.",
+  "source_full_input_sha256": "b997e4df9e2e7ee2858f76fd2a455a0dd359667d6c132d2709381685f5d07d63",
+  "input_sha256": "c6be8ffce8fcacef580db6ca62f5c634c9cdf914e45efdf6466ccb13d20eecb0",
+  "scored_sha256": "78a00a78fcd6004838c65ee18f748d23e0e7f11c8628c22288fbac43d9f47297"
+}

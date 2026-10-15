@@ -1,0 +1,6 @@
+{
+  "rows": 1887,
+  "training_input_sha256": "7495388df69406d05730e6a734366656a166325fb1698d2e9a20b74dde2e2769",
+  "teacher_completions_included": false,
+  "source": "Historical 1887 paired MATH question selection; identical RL input order and prompts."
+}

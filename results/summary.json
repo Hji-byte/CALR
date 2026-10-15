@@ -1,0 +1,133 @@
+{
+  "math500": {
+    "base": {
+      "total": 500,
+      "strict_correct": 351,
+      "strict_accuracy": 0.702,
+      "format_compatible_correct": 354,
+      "format_compatible_accuracy": 0.708,
+      "format_rescued_ids": [
+        205,
+        408,
+        420
+      ],
+      "average_output_tokens": 1556.534,
+      "truncated": 97
+    },
+    "sft": {
+      "total": 500,
+      "strict_correct": 327,
+      "strict_accuracy": 0.654,
+      "format_compatible_correct": 328,
+      "format_compatible_accuracy": 0.656,
+      "format_rescued_ids": [
+        248
+      ],
+      "average_output_tokens": 1719.056,
+      "truncated": 111
+    },
+    "grpo": {
+      "total": 500,
+      "strict_correct": 338,
+      "strict_accuracy": 0.676,
+      "format_compatible_correct": 340,
+      "format_compatible_accuracy": 0.68,
+      "format_rescued_ids": [
+        205,
+        420
+      ],
+      "average_output_tokens": 1628.612,
+      "truncated": 104
+    },
+    "calr": {
+      "total": 500,
+      "strict_correct": 345,
+      "strict_accuracy": 0.69,
+      "format_compatible_correct": 350,
+      "format_compatible_accuracy": 0.7,
+      "format_rescued_ids": [
+        205,
+        248,
+        408,
+        419,
+        420
+      ],
+      "average_output_tokens": 1451.958,
+      "truncated": 90
+    }
+  },
+  "aime": {
+    "base": {
+      "temperature": 0,
+      "thinking": false,
+      "max_new_tokens": 8192,
+      "max_model_len": 10240,
+      "policy": "strict_aime_v1",
+      "years": {
+        "2024": {
+          "total": 30,
+          "correct": 4,
+          "accuracy": 0.13333333333333333,
+          "average_output_tokens": 6768.366666666667,
+          "truncated": 20,
+          "invalid_final_answers": 20
+        }
+      },
+      "note": "AIME2024 only: 30 existing greedy responses selected by dataset ID from the original 2024/2025 evaluation. No regeneration or score changes."
+    },
+    "sft": {
+      "temperature": 0,
+      "thinking": false,
+      "max_new_tokens": 8192,
+      "max_model_len": 10240,
+      "policy": "strict_aime_v1",
+      "years": {
+        "2024": {
+          "total": 30,
+          "correct": 3,
+          "accuracy": 0.1,
+          "average_output_tokens": 6834.5,
+          "truncated": 23,
+          "invalid_final_answers": 23
+        }
+      },
+      "note": "AIME2024 only: 30 greedy responses generated using the normal SFT final adapter. Raw responses and strict scores preserved; summary reshaped to the project schema."
+    },
+    "grpo": {
+      "temperature": 0,
+      "thinking": false,
+      "max_new_tokens": 8192,
+      "max_model_len": 10240,
+      "policy": "strict_aime_v1",
+      "years": {
+        "2024": {
+          "total": 30,
+          "correct": 5,
+          "accuracy": 0.16666666666666666,
+          "average_output_tokens": 7352.666666666667,
+          "truncated": 24,
+          "invalid_final_answers": 24
+        }
+      },
+      "note": "AIME2024 only: 30 existing greedy responses selected by dataset ID from the original 2024/2025 evaluation. No regeneration or score changes."
+    },
+    "calr": {
+      "temperature": 0,
+      "thinking": false,
+      "max_new_tokens": 8192,
+      "max_model_len": 10240,
+      "policy": "strict_aime_v1",
+      "years": {
+        "2024": {
+          "total": 30,
+          "correct": 4,
+          "accuracy": 0.13333333333333333,
+          "average_output_tokens": 6505.133333333333,
+          "truncated": 19,
+          "invalid_final_answers": 22
+        }
+      },
+      "note": "AIME2024 only: 30 existing greedy responses selected by dataset ID from the original 2024/2025 evaluation. No regeneration or score changes."
+    }
+  }
+}

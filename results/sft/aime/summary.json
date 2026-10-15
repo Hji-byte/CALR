@@ -1,0 +1,22 @@
+{
+  "model": "/root/autodl-tmp/models/Qwen3.5-2B",
+  "adapter": "/root/autodl-tmp/Agent-Distillation/training_outputs/Qwen3.5-2B/normal_comparison_vllm_4096_v1/normal_sft/final",
+  "temperature": 0,
+  "thinking": false,
+  "max_new_tokens": 8192,
+  "max_model_len": 10240,
+  "policy": "strict_aime_v1",
+  "years": {
+    "2024": {
+      "total": 30,
+      "correct": 3,
+      "accuracy": 0.1,
+      "average_output_tokens": 6834.5,
+      "truncated": 23,
+      "invalid_final_answers": 23
+    }
+  },
+  "note": "AIME2024 only: 30 greedy responses generated using the normal SFT final adapter. Raw responses and strict scores preserved; summary reshaped to the project schema.",
+  "input_sha256": "0d7bcd8a306a07c301ec210138f6f2901eaf1a307de3b67c3a3caaa1fe8159f0",
+  "scored_sha256": "df60a75f61e26bd44439785adc66f722dd275b02c71481b92b769b690f93f82f"
+}
